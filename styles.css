@@ -57,8 +57,12 @@ h2 {
     padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
-#activity-heading {
+#activities h2 {
     background-color: powderblue;
+}
+
+#activities h2.browser {
+    background-color: thistle;
 }
 
 .browser {
