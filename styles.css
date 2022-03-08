@@ -6,6 +6,11 @@ nav {
     line-height: 21px;
 }
 
+.container {
+    max-width: 960px;
+    margin: 1em auto 1em auto;
+}
+
 h1 {
     background-color: cadetblue;
     color: white;
