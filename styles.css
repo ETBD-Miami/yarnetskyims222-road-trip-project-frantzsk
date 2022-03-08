@@ -6,8 +6,34 @@ nav {
     line-height: 21px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+nav ul li {
+    flex: 1;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.75em;
+    margin: 0.25em;  
+    background-color: #C5D8A4;
+    color: white;  
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ACB992; 
+}
+
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 1em auto 1em auto;
 }
 
