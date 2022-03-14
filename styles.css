@@ -37,6 +37,16 @@ nav ul li a:hover {
     margin: 1em auto 1em auto;
 }
 
+.largeimage {
+    width: 100%;
+    height: auto;
+}
+
+.smallimage {
+    width: 40%;
+    height:auto;
+}
+
 h1 {
     background-color: cadetblue;
     color: white;
