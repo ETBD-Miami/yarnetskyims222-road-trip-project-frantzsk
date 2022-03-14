@@ -63,7 +63,7 @@ h1 {
 }
 
 h2 {
-    background-color: rgb(241, 163, 155);
+    background-color: powderblue;
     color: white;
     text-align: center;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -103,11 +103,11 @@ h2 {
 }
 
 #activities h2.browser {
-    background-color: thistle;
+    background-color: #C5D8A4;
 }
 
 .browser {
-    background-color: thistle;
+    background-color: #C5D8A4;
     color: white;
     text-align: left;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
