@@ -9,18 +9,19 @@
     <meta name="description" content="Places to eat in Hilton Head Island, with descriptions and links to the restaurant websites.">
     <link rel="stylesheet" href="styles.css">
 
+    <span class="open-button" onclick="openNav()"> &#9776; Inside Hilton Head</span>
 </head>
 
 <body>
-<main class="container">
-
-    <nav>
+    <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
            <li><a href="index.html">Home</a></li>
            <li><a href="do.html">Things to Do</a></li>
            <li><a href="eat.html">Places to Eat</a></li>
        </ul>
-     </nav>  
+     </nav>
+<main class="container">
 
     <h1>Places to Eat in Hilton Head Island</h1>
 
@@ -84,6 +85,17 @@
      </ul>
 
 </main>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "330px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
 </body>
 
 </html>

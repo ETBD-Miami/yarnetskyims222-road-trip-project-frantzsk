@@ -9,18 +9,19 @@
     <meta name="description" content="A travel site for Hilton Head Island.">
     <link rel="stylesheet" href="styles.css">
 
+    <span class="open-button" onclick="openNav()"> &#9776; Inside Hilton Head</span>
 </head>
 
 <body>
+  <nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="do.html">Things to Do</a></li>
+       <li><a href="eat.html">Places to Eat</a></li>
+   </ul>
+ </nav>
 <main class="container">
-
-    <nav>
-        <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="do.html">Things to Do</a></li>
-           <li><a href="eat.html">Places to Eat</a></li>
-       </ul>
-     </nav>
 
     <h1>Road Trip to Hilton Head Island!</h1>
     
@@ -36,6 +37,17 @@
      </ul>
 
 </main>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "330px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
 </body>
 
 </html>
