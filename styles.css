@@ -49,8 +49,8 @@ h1 {
     background-color: cadetblue;
     color: white;
     text-align: center;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 4em;
+    font-family: 'Cantata One', serif;
+    font-size: 3.5em;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -64,7 +64,7 @@ h2 {
     background-color: powderblue;
     color: white;
     text-align: center;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: 'Cantata One', serif;
     font-size: 2em;
     font-style: normal;
     font-variant: normal;
@@ -108,7 +108,7 @@ h2 {
     background-color: #C5D8A4;
     color: white;
     text-align: left;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: 'Cantata One', serif;
     font-size: 2em;
     font-style: normal;
     font-variant: normal;
