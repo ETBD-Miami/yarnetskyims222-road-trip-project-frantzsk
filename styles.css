@@ -131,6 +131,7 @@ h2 {
 
 .credits {
     margin: 0.75em 0 2em 0;
+    text-align: left;
     font-size: 15px;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-style: normal;
@@ -236,9 +237,15 @@ h2 {
   border-radius: 3px 0 0 3px;
 }
 
+/* Position the "prev button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.548);
 }
 
 /* Caption text */
@@ -247,7 +254,7 @@ h2 {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 18px;
   width: 100%;
   text-align: center;
 }
@@ -266,7 +273,7 @@ h2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 0 1em 0;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
