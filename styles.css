@@ -111,6 +111,11 @@ iframe.restaurantvid {
     background-color: #C5D8A4;
 }
 
+iframe.googlemap {
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
 .browser {
     background-color: #C5D8A4;
     color: white;
