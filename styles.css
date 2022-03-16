@@ -82,7 +82,14 @@ h2 {
     font-style: normal;
     font-variant: normal;
     padding: 0 0 1em 0;
+    max-width: 800px;
     font-size: 18px;
+}
+
+iframe.restaurantvid {
+  display: block;
+  margin: 0 auto 2em auto;
+
 }
 
 .activity {
