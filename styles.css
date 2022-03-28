@@ -1,8 +1,6 @@
 nav {
     font-size: 15px;
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-style: normal;
-    font-variant: normal;
     line-height: 21px;
 }
 
@@ -31,7 +29,7 @@ nav ul li a:hover {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 3000px;
     margin: 1em auto 1em auto;
 }
 
@@ -49,10 +47,8 @@ h1 {
     background-color: cadetblue;
     color: white;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 3.5em;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 700;
     line-height: 1.1;
     padding: 0.5em 0;
@@ -64,10 +60,8 @@ h2 {
     background-color: powderblue;
     color: white;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 2em;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
     padding: 0.5em 0 0.5em 0;
@@ -120,10 +114,8 @@ iframe.googlemap {
     background-color: #C5D8A4;
     color: white;
     text-align: left;
-    font-family: 'Lato', sans-serif;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 2em;
-    font-style: normal;
-    font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
     padding: 0.5em 0.5em 0.5em 0.5em;
@@ -208,8 +200,9 @@ iframe.googlemap {
     padding: 0.25em
   }
   
-  @media screen and (max-height: 450px) {  /* mobile screen adjustments */   
-    .sidenav {padding-top: 15px;}
+  @media screen and (max-width: 700px) {  /* mobile screen adjustments */   
+    .sidenav {padding-top: 15px;
+      background-color: #adbe90;}
     .sidenav a {font-size: 18px;}
   }
 
